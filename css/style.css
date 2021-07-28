@@ -1,0 +1,52 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.flexible-area {
+  display: flex;
+}
+
+.orange-color {
+  color: #fba24f;
+}
+
+h1 {
+  font-size: 60px;
+  color: #575757;
+  line-height: 78px;
+}
+
+p{
+    color: #828282;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.top-section-intro {
+  padding: 50px;
+  margin: auto;
+}
+
+.top-section-photo {
+  padding: 50px;
+  padding-right: 0px;
+  margin: auto;
+}
+
+.top-section-photo img {
+  width: 80%;
+}
+
+.link-button{
+    color: #ffff;
+    text-decoration: none;
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
+    padding: 10px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 600;
+}

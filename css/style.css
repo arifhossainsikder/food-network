@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 .flexible-area {
@@ -16,15 +17,16 @@ h1 {
   line-height: 78px;
 }
 
-p{
-    color: #828282;
-    font-size: 20px;
-    line-height: 32px;
+p {
+  color: #828282;
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .half-width {
   width: 50%;
 }
+
 
 .top-section-intro {
   padding: 50px;
@@ -33,20 +35,60 @@ p{
 
 .top-section-photo {
   padding: 50px;
-  padding-right: 0px;
-  margin: auto;
 }
 
 .top-section-photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 80%;
 }
 
-.link-button{
-    color: #ffff;
-    text-decoration: none;
-    background-image: linear-gradient(#FBA24F, #FF1E1E);
-    padding: 10px;
-    border-radius: 100px;
-    font-size: 18px;
-    font-weight: 600;
+#about-area {
+  background-image: url(../images/about-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
+
+.about-photo-section {
+  padding: 50px;
+}
+
+.about-photo-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.about-intro-section {
+  padding: 50px;
+  margin: auto;
+}
+
+.link-button {
+  color: #ffff;
+  text-decoration: none;
+  background-image: linear-gradient(#fba24f, #ff1e1e);
+  padding: 10px;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.recipies-top-section{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.single-recipe{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.single-recipe img {
+    width: 100%;
+  }

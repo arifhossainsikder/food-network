@@ -12,9 +12,23 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 45px;
   color: #575757;
-  line-height: 78px;
+}
+
+h2 {
+  font-size: 35px;
+  color: #707070;
+}
+
+h3 {
+  font-size: 20px;
+  color: #18191f;
+}
+
+h4 {
+  font-size: 18px;
+  color: #18191f;
 }
 
 p {
@@ -26,7 +40,6 @@ p {
 .half-width {
   width: 50%;
 }
-
 
 .top-section-intro {
   padding: 50px;
@@ -76,19 +89,59 @@ p {
   font-weight: 600;
 }
 
-.recipies-top-section{
-    margin: auto;
-    width: 50%;
-    text-align: center;
+.recipies-top-section {
+  margin: auto;
+  width: 50%;
+  text-align: center;
 }
 
-.single-recipe{
-    margin: 20px;
-    padding: 20px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+.recipies {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.single-recipe {
+  width: 33.33%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 
 .single-recipe img {
-    width: 100%;
-  }
+  width: 100%;
+}
+
+#counter-section {
+  margin: 30px 50px;
+  box-shadow: 0px 0px 40px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+}
+
+.single-counter {
+  width: 33.33%;
+  margin-left: 60px;
+  padding: 20px 50px;
+}
+
+.single-counter h3,
+.single-counter p {
+  line-height: 10px;
+}
+
+footer {
+  background-color: #0b0d17;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+footer h3 {
+  color: #5b5b5b;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+}
